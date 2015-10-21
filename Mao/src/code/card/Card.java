@@ -7,12 +7,12 @@ public class Card
 	public String actualsuit;
 	public String actualvalue;
 	
-	public Card(String s, String v, String as, String av)
+	public Card(String s, String v)
 	{
 		suit = s;
 		value = v;
-		actualsuit = as;
-		actualvalue = av;
+		actualsuit = s;
+		actualvalue = v;
 	}
 
 	public String getSuit() {
