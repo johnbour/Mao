@@ -63,6 +63,9 @@ public class Deck
             deck.add(new Card("King","Spades"));
             Collections.shuffle(deck);
 
+     }
+     public ArrayList<Card> getDeck()
+     {
+          return deck;
      } 
-
 } 
