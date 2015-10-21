@@ -1,0 +1,14 @@
+package code.card;
+import java.util.ArrayList;
+public class DeckOfDecks
+{
+     private ArrayList<Card> superDeck;
+     public DeckOfDecks(int players) 
+     {
+           superDeck=new ArrayList<Card>() ;
+           for(int i = 0;i<players;i++)
+           {
+                 superDeck.addAll(new Deck().getDeck();
+           } 
+     } 
+} 
