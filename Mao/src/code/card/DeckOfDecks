@@ -10,5 +10,6 @@ public class DeckOfDecks
            {
                  superDeck.addAll(new Deck().getDeck();
            } 
+           Collections.shuffle(superDeck);
      } 
 } 
